@@ -74,9 +74,10 @@ aside div {
 aside div h4 {
   color: #fff;
   margin: 0;
-  height: 30px;
-  line-height: 30px;
-  padding-left: 60px
+  height: 40px;
+  line-height: 40px;
+  padding-left: 60px;
+  font-size: 1.4em;
 }
 
 .triangle-isosceles {
@@ -125,6 +126,27 @@ aside h4.skills {
 aside h4.hobbies {
   background-color: rgb(255, 134,	68);
 }	
+
+ul {
+  margin-top: 40px;
+  list-style: none;
+}
+
+ul li {
+  margin: 5px 0;
+  color: #fff;
+}
+
+li span {
+  vertical-align: top; /* vertical-align doesn’t set the alignment of content within a wrapper, it sets the alignment of inline elements relative to each other.*/
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+li p {
+  display: inline-block;
+  font-size: 1.2em;
+}
 
 .cv-data {
   padding-left: 50px;
