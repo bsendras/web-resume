@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i|Roboto:100,100i');
+
+* {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+div.main {
+  padding: 0;
+  box-shadow: 1px 1px 10px #cdcdcd;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header * {
+  color: #fff;
+}
+
+.jumbotron {
+ background-color: rgb(41, 58, 63);
+ border-radius: 0 !important;
+ margin-bottom: 0;
+ box-shadow: 1px 1px 10px #000;
+}
+
+.jumbotron div.img {
+  padding: 50px;
+  /* text-align: center; */
+}
+
+.jumbotron img {
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border: 10px solid #fff;
+  border-radius: 50%;
+}
+
+header.title {
+ padding: 0 20px;
+}
+
+header.title h1 {
+  margin-top: 0 !important;
+}
+
+header.title h3 {
+  margin-bottom: 0 !important;
+}
+
+section.container div.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+aside {
+  width: 100px;
+  padding: 0! important;
+  box-shadow: 1px 1px 10px #000;
+}
+aside div {
+  background-color: rgb(41, 58, 63);
+  height: 300px;
+}
+
+aside div h4 {
+  color: #fff;
+  margin: 0;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 60px
+}
+
+.triangle-isosceles {
+  position: relative;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  position: absolute;
+  bottom: -15px; /* value = - border-top-width - border-bottom-width */
+  left: 50px; /* controls horizontal position */
+  border-width: 15px 15px 0; /* vary these values to change the angle of the vertex */
+  border-style: solid;
+  border-color: rgb(255, 74, 89) transparent;
+  /* reduce the damage in FF3.0 */
+  display: block;
+  width: 0;
+}
+
+.triangle-1:after {
+  border-color: rgb(255, 74, 89) transparent;
+}
+.triangle-2:after {
+  border-color: rgb(173, 189, 74) transparent;
+}
+.triangle-3:after {
+  border-color: rgb(53,	155, 182) transparent;
+}
+.triangle-4:after {
+  border-color: rgb(255, 134,	68) transparent;
+}
+
+aside h4.contact {
+ background-color: rgb(255, 74, 89);
+}
+  
+aside h4.languages {
+  background-color: rgb(173, 189, 74);
+}	
+
+aside h4.skills {
+  background-color: rgb(53,	155, 182);
+}	
+
+aside h4.hobbies {
+  background-color: rgb(255, 134,	68);
+}	
+
+.cv-data {
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.cv-data p {
+  text-align: justify;
+}
+
+footer {
+  box-shadow: 1px 1px 10px #000;
+  background-color: rgb(41, 58, 63);  
+  height: 300px;
+}
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 1000px) {
+  .jumbotron div.img {
+  text-align: center;
+  }
+
+  header.title {
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+}
+
