@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i|Roboto:100,100i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i&subset=latin,latin-ext');
 
 * {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -45,7 +46,7 @@ header * {
 }
 
 header.title {
- padding: 0 20px;
+ padding: 0 0 0 35px;
 }
 
 header.title h1 {
@@ -54,6 +55,10 @@ header.title h1 {
 
 header.title h3 {
   margin-bottom: 0 !important;
+}
+
+header.title p {
+  text-align: justify;
 }
 
 section.container div.row {
@@ -74,12 +79,12 @@ aside div {
 /* agregamos la clase .topic para alternar el padding de los divs
 segun el ancho del viewport posteriormente en un mediaquery. */
 aside div.topic {
+  color: #fff;
   padding: 0!important;
 }
 
 aside div h4 {
-  color: #fff;
-  margin: 0;
+  margin-top: 0;
   height: 40px;
   line-height: 40px;
   padding-left: 60px;
@@ -133,26 +138,107 @@ aside h4.hobbies {
   background-color: rgb(255, 134,	68);
 }	
 
-ul {
+/* CONTACT */
+
+ul.topic-items {
   margin-top: 40px;
   list-style: none;
 }
 
-ul li {
-  margin: 5px 0;
+ul.topic-items li {
+  margin: 10px 0;
   color: #fff;
 }
 
-li span {
+ul.topic-items li span {
   vertical-align: top; /* vertical-align doesn’t set the alignment of content within a wrapper, it sets the alignment of inline elements relative to each other.*/
   margin-right: 10px;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
-li p {
+ul.topic-items li p {
   display: inline-block;
   font-size: 1.2em;
 }
+
+/* LINEAR GAUGES */
+.gauge-bk {
+  background-color: rgb(37,	47,	54);
+  width: 80%;
+  height: 3px;
+  visibility: visible;
+}
+.gauge-fg {
+  background-color: #fff;
+  height: 3px;  
+}
+
+.gauge-fg-10 {
+    width: 10%;
+}
+
+.gauge-fg-20 {
+    width: 20%;
+}
+
+.gauge-fg-30 {
+    width: 30%;
+}
+
+.gauge-fg-40 {
+    width: 40%;
+}
+
+.gauge-fg-50 {
+    width: 50%;
+}
+
+.gauge-fg-600 {
+    width: 60%;
+}
+
+.gauge-fg-70 {
+    width: 70%;
+}
+
+.gauge-fg-80 {
+    width: 80%;
+}
+
+.gauge-fg-90 {
+    width: 90%;
+}
+
+.gauge-fg-100 {
+    width: 100%;
+}
+
+/* CIRCULAR GAUGE */
+.gauges-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: -20px
+}
+.gauges-container li {
+  display: inline-block;
+  margin: 0!important;
+  padding: 0!important;
+}
+
+.gauges-container li p{
+  margin-left: 25px;
+  margin-bottom: 0;
+}
+.gauge {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+/* LANGUAGES */
+
+/* DETAILED PROFILE */
 
 .cv-data {
   padding-left: 50px;
@@ -181,7 +267,7 @@ footer {
   }
 
   aside div.topic {
-  padding: 0 10px!important;
+    padding: 0 10px!important;
   }
 }
 
