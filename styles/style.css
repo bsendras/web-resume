@@ -62,13 +62,19 @@ section.container div.row {
 }
 
 aside {
-  width: 100px;
-  padding: 0! important;
+  padding: 0!important;
   box-shadow: 1px 1px 10px #000;
 }
+
 aside div {
   background-color: rgb(41, 58, 63);
   height: 300px;
+}
+
+/* agregamos la clase .topic para alternar el padding de los divs
+segun el ancho del viewport posteriormente en un mediaquery. */
+aside div.topic {
+  padding: 0!important;
 }
 
 aside div h4 {
@@ -166,12 +172,16 @@ footer {
 /* MEDIA QUERYS */
 @media screen and (max-width: 1000px) {
   .jumbotron div.img {
-  text-align: center;
+    text-align: center;
   }
 
   header.title {
     padding-left: 50px;
     padding-right: 30px;
+  }
+
+  aside div.topic {
+  padding: 0 10px!important;
   }
 }
 
