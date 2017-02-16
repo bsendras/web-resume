@@ -12,13 +12,7 @@ p {
 }
 
 div.main {
-  padding: 0;
-  box-shadow: 1px 1px 10px #cdcdcd;
-}
-
-.container {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0 15px 0 0;
 }
 
 header * {
@@ -26,15 +20,14 @@ header * {
 }
 
 .jumbotron {
- background-color: rgb(41, 58, 63);
- border-radius: 0 !important;
- margin-bottom: 0;
- box-shadow: 1px 1px 10px #000;
+  background-color: rgb(41, 58, 63);
+  margin-bottom: 0;
+  box-shadow: 1px 1px 10px #000;
 }
 
 .jumbotron div.img {
-  padding: 50px;
-  /* text-align: center; */
+  padding-top: 15px;
+  text-align: center;
 }
 
 .jumbotron img {
@@ -46,7 +39,7 @@ header * {
 }
 
 header.title {
- padding: 0 0 0 35px;
+ padding: 0 65px 0 40px;
 }
 
 header.title h1 {
@@ -61,14 +54,8 @@ header.title p {
   text-align: justify;
 }
 
-section.container div.row {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 aside {
   padding: 0!important;
-  box-shadow: 1px 1px 10px #000;
 }
 
 aside div {
@@ -81,6 +68,10 @@ segun el ancho del viewport posteriormente en un mediaquery. */
 aside div.topic {
   color: #fff;
   padding: 0!important;
+}
+
+aside .topic-items {
+  margin-left: 20px;
 }
 
 aside div h4 {
@@ -230,6 +221,7 @@ ul.topic-items li p {
   margin-left: 25px;
   margin-bottom: 0;
 }
+
 .gauge {
   width: 100px;
   height: 100px;
@@ -242,7 +234,7 @@ ul.topic-items li p {
 
 .cv-data {
   padding-left: 50px;
-  padding-right: 30px;
+  padding-right: 60px;
 }
 
 .cv-data p {
@@ -252,6 +244,7 @@ ul.topic-items li p {
 footer {
   box-shadow: 1px 1px 10px #000;
   background-color: rgb(41, 58, 63);  
+  width: 100%;
   height: 300px;
 }
 
