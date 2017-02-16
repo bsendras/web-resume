@@ -218,7 +218,8 @@ ul.topic-items li p {
 }
 
 .gauges-container li p{
-  margin-left: 25px;
+  width: 100px; /* doy el mismo ancho que tiene el gauge */
+  text-align: center; /* para poder centrar el texto del parrafo */
   margin-bottom: 0;
 }
 
