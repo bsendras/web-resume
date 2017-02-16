@@ -71,7 +71,7 @@ aside div.topic {
 }
 
 aside .topic-items {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 aside div h4 {
@@ -255,7 +255,7 @@ footer {
   }
 
   header.title {
-    padding-left: 50px;
+    padding-left: 30px;
     padding-right: 30px;
   }
 
