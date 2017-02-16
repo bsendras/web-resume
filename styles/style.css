@@ -262,5 +262,10 @@ footer {
   aside div.topic {
     padding: 0 10px!important;
   }
+
+  .cv-data {
+    padding-left: 50px;
+    padding-right: 40px;
+  }
 }
 
