@@ -240,6 +240,18 @@ ul.topic-items li p {
 
 .cv-data p {
   text-align: justify;
+  font-size: 1.2em;
+}
+
+.cv-data h4 {
+  font-weight: 700;
+  font-size: 1em;
+}
+
+span.subtitle {
+  color: rgb(255, 74, 89);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 footer {
