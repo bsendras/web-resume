@@ -294,7 +294,6 @@ footer {
     margin-right: 30px;
   }
 
-  padding-left
   .jumbotron div.img {
     text-align: center;
   }
@@ -304,7 +303,7 @@ footer {
     padding-right: 30px;
   }
 
-  aside div.topic.odd{
+  aside div.topic.odd {
     padding-left: 20px !important;
   }
 
@@ -312,5 +311,11 @@ footer {
     padding-left: 50px;
     padding-right: 40px;
   }
+}
+
+@media screen and (max-width: 767px) {
+   aside div.topic.odd {
+    padding-left: 0px !important;
+  } 
 }
 
