@@ -173,6 +173,11 @@ ul.topic-items li p {
   font-size: 1.2em;
 }
 
+ul.topic-items li p time {
+  font-family: inherit;
+  font-size: inherit;
+}
+
 /* LINEAR GAUGES */
 .gauge-bk {
   background-color: rgb(37,	47,	54);
