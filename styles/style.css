@@ -27,7 +27,7 @@ header * {
   color: #fff;
   font-size: 1.2em;
   padding: 10px 0;
-  margin-right: 65px; 
+  margin-right: 65px;
 }
 
 a.translation:hover,
@@ -323,7 +323,7 @@ footer {
 
 /* MEDIA QUERYS */
 @media screen and (max-width: 991px) {
-  .lang {
+  .translation {
     margin-right: 30px;
   }
 
