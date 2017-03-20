@@ -23,15 +23,11 @@ header * {
   background-color: rgb(41, 58, 63);  
 }
 
-.lang {
-  margin: 0 65px 0 0;
-  padding: 10px 0;
-  text-align: right;
-} 
-
 .translation {
+  color: #fff;
   font-size: 1.2em;
-  margin: 0;
+  padding: 10px 0;
+  margin-right: 65px; 
 }
 
 a.translation:hover,
@@ -279,6 +275,43 @@ span.subtitle {
   color: rgb(255, 74, 89);
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.projects {
+  padding-top: 50px; 
+  text-align: center;
+}
+
+.project {
+  padding-bottom: 30px;
+}
+
+.project a {
+  color: inherit;
+  text-decoration: none; 
+}
+
+.project a:hover,
+.project a:focus {
+  color: #cdcdcd;
+  text-decoration: none;  
+}
+
+.project-img {
+  background-size: cover;
+  border-radius: 50%;
+  border: 4px solid rgb(41, 58, 63);
+  width: 200px;
+  height: 200px;
+  margin: auto;  
+}
+
+.p1 {
+    background-image: url("../img/p1.png");
+}
+
+.p2 {
+    background-image: url("../img/p2.png");
 }
 
 footer {
