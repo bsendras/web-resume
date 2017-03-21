@@ -322,6 +322,12 @@ footer {
 }
 
 /* MEDIA QUERYS */
+@media screen and (max-width: 1010px) and (min-width: 991px) {
+  .cv-data {
+    width: 665px;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .translation {
     margin-right: 30px;
