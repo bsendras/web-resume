@@ -356,5 +356,10 @@ footer {
    aside div.topic.odd {
     padding-left: 0px !important;
   } 
+
+  .cv-data p,
+  .cv-data h2 {
+    text-align: left;
+  }  
 }
 
