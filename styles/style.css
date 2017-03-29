@@ -277,6 +277,13 @@ span.subtitle {
   font-weight: 700;
 }
 
+a.subtitle {
+  color: rgb(255, 74, 89);
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 .projects {
   padding-top: 50px; 
   text-align: center;
@@ -312,6 +319,11 @@ span.subtitle {
 
 .p2 {
     background-image: url("../img/p2.png");
+}
+
+.modal-body p {
+  font-family: "Roboto", Arial, Helvetica, sans-serif!important;
+  font-size: 1.2em;
 }
 
 footer {
